@@ -34,7 +34,7 @@ function currentLine(line){
 
 function currentLine(line){
   var numberedLine = [];
-  line.forEach(name => numberedLine.push(` ${line.indexOf(name)}. ${name}`));
+  line.forEach(name => numberedLine.push(` ${line.indexOf(name)+1}. ${name}`));
   if(line.length>0){
     return `The line is currently ${numberedLine.toString()}`;
   } else {
