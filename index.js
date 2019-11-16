@@ -18,8 +18,6 @@ function nowServing(line){
 }
 */
 
-
-
 function currentLine(line){
   var numberedLine = [];
   line.forEach(name => numberedLine.push(` ${line.indexOf(name)+1}. ${name}`));
